@@ -115,6 +115,263 @@
             
             // --- DATA SOURCE ---
             const sopData = [
+
+                {
+                    id: 'visa-application',
+                    title: 'Visa Application Processing <br> (Pre-Departure Requirements)',
+                    icon: `<span class="material-symbols-outlined text-blue-600 text-[21px]">files</span>`,
+                    iconBg: 'bg-blue-100',
+                    content: `
+                        <div class="space-y-6">
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-red-600">When to use:</span></strong><br>
+                                    Use this SOP <strong>once participants have been officially selected for the Japan Immersion Program</strong>. 
+                                    This must be initiated <strong>1–2 months before the flight</strong> 
+                                    <i>(or earlier if required)</i>. AMT representatives will notify selected participants and guide them through this process.
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <!-- LEFT: Required Documents -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Required Documents Checklist</h5>
+                                        <ol class="space-y-2 text-[15px] list-decimal pl-5">
+                                            <li>
+                                                <strong>Original Valid Passport</strong><br>
+                                                With handwritten signature (Page 3), valid at least 6 months beyond travel date, and in good condition.
+                                            </li>
+                                            <li>
+                                                <strong>Photocopy of Passport Bio Page</strong><br>
+                                                A4-sized copy including bio page, previous Japan visas, and travel stamps (if any).
+                                            </li>
+                                            <li>
+                                                <strong>Visa Application Form (2 copies)</strong><br>
+                                                Use the provided template, follow the sample strictly, surname in <strong>ALL CAPS</strong>, 
+                                                write <strong>N/A</strong> if not applicable, and sign both copies manually.
+                                            </li>
+                                            <li>
+                                                <strong>Two (2) Passport Photos</strong><br>
+                                                Size 45mm × 35mm, white background, formal attire with collar, no glasses/jewelry; 
+                                                paste one photo on each visa form (do not staple).
+                                            </li>
+                                            <li>
+                                                <strong>Authorization Letter (2 copies)</strong><br>
+                                                Use the official template, fill in details as required, and sign both copies manually to authorize representatives to process your visa.
+                                            </li>
+                                        </ol>
+                                    </div>
+
+                                    <!-- RIGHT: Submission & Compliance -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Submission Instructions & Reminders</h5>
+                                        <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                            <li>
+                                                Place all documents in a <strong>long brown envelope</strong> labeled with your complete name 
+                                                (Last Name, First Name, Middle Name).
+                                            </li>
+                                            <li>
+                                                Submit the envelope only to <strong>Ms. Airra</strong> or <strong>Mr. Rey</strong> at the office.
+                                            </li>
+                                            <li>
+                                                Follow the announced <strong>deadline</strong> (e.g., on or before Monday) to avoid processing delays.
+                                            </li>
+                                            <li>
+                                                Double-check all forms for correctness before submission (no blank required fields, no alterations on pre-filled parts).
+                                            </li>
+                                            <li>
+                                                Keep personal copies or clear photos of your documents for your own reference.
+                                            </li>
+                                            <li>
+                                                <strong>Strict compliance required.</strong> Incomplete or incorrect submissions may delay or affect visa approval.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    `
+                }, 
+                {
+                    id: 'checklist-standard',
+                    title: '1DWE Master Checklist <br> (Planning & Tracking Standards)',
+                    icon: `<span class="material-symbols-outlined text-blue-600 text-[21px]">checklist_rtl</span>`,
+                    iconBg: 'bg-blue-100',
+                    content: `
+                        <div class="space-y-6">
+                            <!-- When to use -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-red-600">When to use:</span></strong><br>
+                                    Use this SOP as the <strong>first step</strong> in planning any Japan Immersion / 1DWE trip. 
+                                    The checklist must be created and updated <strong>1–2 months before the trip is confirmed</strong>, 
+                                    or as soon as the potential schedule is identified.
+                                </p>
+                            </div>
+
+                            <!-- Main grid -->
+                            <div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <!-- LEFT: Checklist Creation & Structure -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Checklist Creation & Structure</h5>
+                                        <ol class="space-y-2 text-[15px] list-decimal pl-5">
+                                            <li>
+                                                <strong>Duplicate the <a href="https://docs.google.com/spreadsheets/d/1E0Kc0VjFcXxWybuXun6phBYsSX0oKRPE2s8yd53DsgA/edit?gid=603231858#gid=603231858" target="_blank" class="inline-block mt-2 text-blue-600 underline">official checklist template</a></strong><br>
+                                                Create a copy of the latest approved <i>1DWE Checklist</i> template 
+                                                in the designated Google Drive folder.
+                                            </li>
+                                            <li>
+                                                <strong>Apply standard naming convention</strong><br>
+                                                Rename the file using: 
+                                                <i>[Year] [Month] Japan Immersion – 1DWE Checklist</i> 
+                                                (e.g., <i>2026 March Japan Immersion – 1DWE Checklist</i>).
+                                            </li>
+                                            <li>
+                                                <strong>Fields to update for each task</strong><br>
+                                                For every predefined task, staffs must regularly update the following fields:<br>
+                                                <span class="ml-4 block">• <b>Start Date</b> – date when the task preparation begins</span>
+                                                <span class="ml-4 block">• <b>Expected Deadline</b> – target date of completion</span>
+                                                <span class="ml-4 block">• <b>Link of Documents, if any</b> – link to SOPs, templates, reference files, or outputs</span>
+                                                <span class="ml-4 block">• <b>Remarks</b> – status and special notes (e.g., “In Progress”, “Completed”, “Pending Approval”)</span>
+                                            </li>
+                                        </ol>
+                                    </div>
+
+                                    <!-- RIGHT: Usage Guidelines & Ownership -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Usage Guidelines & Ownership</h5>
+                                        <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                            <li>
+                                                <strong>Visibility:</strong> Share the checklist with core stakeholders 
+                                                (LAT, JLT, AMT, MKT, and other involved teams) with appropriate access rights.
+                                            </li>
+                                            <li>
+                                                <strong>Updates:</strong> Review and update the checklist regularly 
+                                                (at least weekly) during the planning phase, especially Start Date, Expected Deadline, and Remarks.
+                                            </li>
+                                            <li>
+                                                <strong>Link of Documents, if any:</strong> Always attach the latest version of 
+                                                supporting files (e.g., Trip Itinerary, Orientation Slides) 
+                                                to keep all references in one place.
+                                            </li>
+                                            <li>
+                                                <strong>Remarks:</strong> Use this column to log progress 
+                                                (e.g., “In progress”, “Completed”, “Pending approval”, “For revision”).
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Next Step: Folder Preparation -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="text-[15px] font-bold mb-2">Next Step: Master Folder Preparation</h4>
+                                <p class="text-[15px]">
+                                    After the checklist has been set up, the <strong>next step</strong> is to prepare a 
+                                    <strong>single master folder</strong> where all documents to be used by staff will be stored 
+                                    (e.g., itineraries, forms, orientation materials, trip photos and videos).
+                                </p>
+                            </div>
+                        </div>
+                    `
+                },
+                {
+                    id: 'trip-itinerary',
+                    title: 'Trip Itinerary Sheet <br> (Reference & Usage Notes)',
+                    icon: `<span class="material-symbols-outlined text-blue-600 text-[21px]">travel_explore</span>`,
+                    iconBg: 'bg-blue-100',
+                    content: `
+                        <div class="space-y-6">
+                            <!-- When to use -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-red-600">When to use:</span></strong><br>
+                                    The Trip Itinerary sheet should be prepared and updated <strong>at least 1 month before the trip</strong>. It serves as the <strong>main reference document for the staff</strong> throughout the entire trip (from departure in the Philippines until return from Japan).
+                                </p>
+                            </div>
+
+                            <!-- Main grid -->
+                            <div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <!-- LEFT: Sheet Structure Overview -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Sheet Structure (Summary)</h5>
+                                        <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                            <li>
+                                                <strong>Master tab:</strong> Contains key locations such as:
+                                                <span class="ml-4 block">• Airports (e.g., MNL ⇄ JP airports)</span>
+                                                <span class="ml-4 block">• Universities / Employers / LGU </span>
+                                                <span class="ml-4 block">• Accommodation (hotels)</span>
+                                                <span class="ml-4 block">• Train stations and other important points</span>
+                                                Each entry may include <b>Google Map URL</b>, official <b>website URL</b>, 
+                                                <b>contact number</b>, and <b>start–end time</b> where applicable.
+                                            </li>
+                                            <li>
+                                                <strong>Itinerary tab:</strong> Day-to-day schedule for each group, including:
+                                                <span class="ml-4 block">• Transfers and travel time</span>
+                                                <span class="ml-4 block">• Hotel check-in / check-out</span>
+                                                <span class="ml-4 block">• Trainings and work experience</span>
+                                                <span class="ml-4 block">• Cultural immersion / sightseeing activities</span>
+                                            </li>
+                                            <li>
+                                                <strong>Room Assignments tab:</strong> Lists which hotel is used on each date and 
+                                                which participants share the same room(s).
+                                            </li>
+                                            <li>
+                                                <strong>Taxi Booking tab:</strong> Contains planned taxi bookings per day. 
+                                                If no booking is listed for an activity that needs a taxi, staff must confirm whether 
+                                                a booking is required and how to book it (refer to <i>Navigation Prep  under <b> Pre-Departure</b></i>).
+                                            </li>
+                                            <li>
+                                                <strong>Trains / JR tabs:</strong> Show JR Pass usage, Shinkansen details, 
+                                                train times, routes, train names, and reserved seat & car numbers for transfers.
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- RIGHT: Reminders & Responsibilities -->
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h5 class="font-bold mb-2">Reminders & Responsibilities (FYI)</h5>
+                                        <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                            <li>
+                                                <strong>Primary owners:</strong> Japanese staff / JLT are responsible for preparing 
+                                                and maintaining the Trip Itinerary sheet.
+                                            </li>
+                                            <li>
+                                                <strong>Staff joining the trip:</strong> Staff who will join the trip must review the 
+                                                itinerary carefully. They are also responsible for purchasing the <b>JR Pass</b> and 
+                                                <b>Shinkansen reservation tickets</b>.
+                                            </li>
+                                            <li>
+                                                <strong>Orientation use:</strong> The sheet will be explained during the staff orientation. 
+                                                All staff are expected to understand and be familiar with how to read and use each tab.
+                                            </li>
+                                            <li>
+                                                <strong>During the trip:</strong> The Trip Itinerary sheet is the main reference for 
+                                                daily decisions (e.g., where to go next, which train to ride, hotel details, and taxi arrangements).
+                                            </li>
+                                            <li>
+                                                <strong>Taxi booking check:</strong> For each day, staff must confirm that required 
+                                                taxi bookings are listed. If a booking is missing, staff should clarify whether it is 
+                                                needed and, if necessary, follow the agreed process for booking (Go Taxi app / local arrangements).
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Closing note -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p class="text-[14px]">
+                                    This SOP serves as a reminder that the Trip Itinerary sheet is a <strong>live reference document</strong>. 
+                                    Keeping it accurate and updated helps ensure smooth coordination of flights, transfers, accommodations, 
+                                    trainings, and cultural activities throughout the immersion.
+                                </p>
+                            </div>
+                        </div>
+                    `
+                },
                 {
                     id: 'pre-departure',
                     title: 'Pre-Departure <br> (Before Flight - PH)',
@@ -123,36 +380,173 @@
                     content: `
                         <div class="space-y-6">
                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <p><strong> <span class="text-red-600"> When to use:</strong> <br> Use this SOP at least <strong>3–5 days before departure</strong> to finalize tools, documents, and readiness for engineers. Activate during the orientation and pre-departure checklist review.</p>
+                                <p>
+                                    <strong><span class="text-red-600">When to use:</span></strong><br>
+                                    Use this SOP at least <strong>2–3 weeks before departure</strong> to prepare tools, conduct orientations, complete submissions, and ensure readiness of staff and engineers.
+                                </p>
                             </div>
                             
                             <div>
-                                
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <!-- LEFT -->
                                     <div class="bg-gray-50 p-4 rounded-lg">
-                                        <h5 class="font-bold mb-2">Set up and try the Tools</h5>
+                                        <h5 class="font-bold mb-2">Set Up & Try the Tools</h5>
                                         <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                            <li>Request ChatGPT accounts for Zuitt staff and engineers (if applicable). </li>
                                             <li>Test voice translation tools (e.g., ChatGPT, Google Translate)</li>
-                                            <li>ChatGPT: <blockquote class="bg-white p-2 mt-1 rounded-md border-l-4 border-red-400 text-[12px]"><i><strong>Prompt: </strong> You’re an interpreter. If I speak in Japanese, immediately interpret it into English; if I speak in English, immediately interpret it into Japanese. Do not repeat the original text. Do not respond to my questions, but just translate it.</i>
-</strong></blockquote></li>
-                                            <li>Google Translate (for backup)</li>
-                                            <li>Make sure all engineers turn on their chat notifications in Google Chat</li>
+                                            <li>
+                                                ChatGPT:
+                                                <blockquote class="bg-white p-2 mt-1 rounded-md border-l-4 border-red-400 text-[12px]">
+                                                    <i><strong>Prompt:</strong> You’re an interpreter. If I speak in Japanese, immediately interpret it into English; if I speak in English, immediately interpret it into Japanese. Do not repeat the original text. Do not respond to my questions, but just translate it.</i>
+                                                </blockquote>
+                                            </li>
+                                            <li>Gemini, Google Translate (backup)</li>
+                                            <li>Ensure engineers have Google Chat notifications enabled</li>
                                         </ul>
                                     </div>
+
+                                    <!-- RIGHT -->
                                     <div class="bg-gray-50 p-4 rounded-lg">
                                         <h5 class="font-bold mb-2">Navigation Prep</h5>
+
                                         <ul class="space-y-2 text-[15px] list-disc pl-5">
                                             <li>Save hotel and company pins on Google Maps</li>
                                             <li>Download offline maps</li>
-                                            <li>Search how to commute in JP (local train, shinkansen, etc.) using Google Maps</li>
-                                            <li>Prepare and review the itinerary</li>
-                                            <li>Search and save nearby restaurants/convenience store as a backup</li>
+
+                                            <li>
+                                                Search how to commute in Japan (local trains, shinkansen, etc.)
+                                                <ul class="space-y-2 text-[15px] pl-5 mt-2" style="list-style-type: circle;" >
+
+                                                    <li><a href="https://www.youtube.com/watch?v=-XlCWpHQ-GE" class="text-blue-600" target="_blank">How to use Suica</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=sa3_by5fRjE" class="text-blue-600" target="_blank">How to use Japan Rail Pass / reserved seats</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=rxS4h25kz3I" class="text-blue-600" target="_blank">How to ride trains</a></li>
+                                                    <li><a href="https://www.youtube.com/watch?v=bxcCmbohTHE" class="text-blue-600" target="_blank">How to ride a Bus</a></li>
+                                                    <li><a href="https://en.japantravel.com/guide/let-s-taxi-app-go-navigating-with-japan-s-most-used-taxi-app/70935" class="text-blue-600" target="_blank">How to use Go Taxi App (backup)</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>Search and save nearby restaurants</li>
                                         </ul>
                                     </div>
-                                    
                                 </div>
                             </div>
-                             <div>
+
+                            <!-- ORIENTATIONS -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="text-[15px] font-bold mb-3">Orientations (2–3 Weeks Before Trip)</h4>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+
+                                    <li>
+                                        <strong>Staff Orientation</strong><br>
+                                        Covers key preparation topics for staff joining the trip, including:
+                                        <ul class="pl-6 mt-1" style="list-style-type: circle;">
+                                            <li>Main responsibilities</li>
+                                            <li>Health, safety, and emergency reminders</li>
+                                            <li>Trip guidelines and reminders</li>
+                                            <li>Situational questions</li>
+                                            <li>Staff allowance</li>
+                                            <li>Relevant SOPs for both Staff and Engineers</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong>1DWE Orientation for Engineers</strong> (Staff joining the trip are also expected to attend.) <br>
+                                        Orientation coverage includes:
+                                        <ul class="pl-6 mt-1" style="list-style-type: circle;">
+                                            <li>Immigration preparations and requirements</li>
+                                            <li>Trip reminders (what to bring, expectations)</li>
+                                            <li>ChatGPT access and provided prompt</li>
+                                            <li>Required apps to download</li>
+                                            <li>Flight and travel details</li>
+                                            <li>Meet-up place & instructions on departure day</li>
+                                            <li>Introduction of Zuitt Staff joining the trip</li>
+                                            <li>Additional reminders and clarifications</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <!-- ENGINEER PREPS -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="text-[15px] font-bold mb-3">Other Pre-Departure Preparations (2–3 Weeks Before Trip)</h4>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+
+                                    <li>
+                                        <strong>Engineer Groupings</strong><br>
+                                        Assignment of engineers into groups according to company visit schedules. 
+                                        Each group will have an assigned Zuitt/Japanese staff who will guide and support them during visits.
+                                    </li>
+
+                                    <li>
+                                        <strong>90-Second Self-Introduction & Mock Interview Preparation</strong><br>
+                                        Engineers will prepare their personal introduction (jikoshoukai) to be used during company visits. 
+                                        Slide templates will be provided, and JLT staff will assist in refining their content and delivery. 
+                                        Engineers are required to record a practice version of their introduction and will also undergo 
+                                        a mock interview to prepare for possible company interviews during the trip.
+                                    </li>
+
+                                    <li>
+                                        <strong>QR Code & Web-Viewable Itinerary for Engineers</strong><br>
+                                        A detailed day-to-day itinerary (web version) must be prepared and shared with engineers via QR code. 
+                                        Japanese and non-Japanese speaking staff are responsible for updating the itinerary details. 
+                                        This must be ready before the 1DWE Engineer Orientation, as it will be distributed and explained there.
+                                    </li>
+
+                                    <li>
+                                        <strong>Train Ticket Booking (JR Pass / Shinkansen)</strong><br>
+                                        Zuitt staff are responsible for booking tickets based on the confirmed itinerary.
+                                        <br>
+                                        <a href="https://www.japanrailpass-reservation.net/" target="_blank" class="text-blue-600">
+                                            https://www.japanrailpass-reservation.net/
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- 1 WEEK BEFORE -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="text-[15px] font-bold mb-3">1 Week Before the Trip</h4>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+
+                                    <li>
+                                        <strong>Kansai University Online Training</strong><br>
+                                        A preparatory seminar to help engineers:<br>
+                                        – Understand the Japanese recruitment process and purpose of 1DWE<br>
+                                        – Gain awareness of participating companies, industries, culture, and expectations<br>
+                                        – Develop cross-cultural awareness, communication mindset, and teamwork readiness
+                                    </li>
+
+                                    <li>
+                                        <strong>UPSIDER Account (Credit Card) Preparation – Zuitt Staff</strong><br>
+                                        Ensure credit card access is ready for staff as an alternative payment method 
+                                        in Japan (aside from cash provided for food, transportation, and other expenses).
+                                    </li>
+                                    <li>
+                                        <strong>Immigration Preparation (PH & JP)</strong><br>
+                                        Complete the required online immigration registrations:
+                                        
+                                        <ul class="pl-6 mt-2" style="list-style-type: circle;">
+                                            <li>
+                                                <b> PH eTravel </b> — 
+                                                <a href="https://etravel.gov.ph/" class="text-blue-600" target="_blank">
+                                                    https://etravel.gov.ph/
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <b> Japan Visit Japan Web </b> — 
+                                                <a href="https://www.vjw.digital.go.jp/" class="text-blue-600" target="_blank">
+                                                    https://www.vjw.digital.go.jp/
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        A separate handout will be provided containing the step-by-step guidelines. </b
+                                        Staff and engineers must follow the instructions carefully.
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div>
                                 <h4 class="text-[15px] font-bold mb-3">Before the flight</h4>
                                 <div class="space-y-3">
                                     <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>E-travel Registration for QR code</p></div>
@@ -175,48 +569,100 @@
                     iconBg: 'bg-blue-100',
                     content: `
                         <div class="space-y-6">
-                            <div class="bg-gray-50 p-4 rounded-lg"><p><strong> <span class="text-blue-600">When to use:</strong> <br> Use this SOP <strong>on the day</strong> of departure at the airport terminal during group check-in and immigration preparation.</p></div>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-blue-600">When to use:</span></strong><br>
+                                    Use this SOP <strong>on the day</strong> of departure at the airport terminal during group check-in and immigration preparation.
+                                </p>
+                            </div>
+
                             <div class="bg-gray-50 p-4 rounded-lg">
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Make sure to have your breakfast before arriving to the airport</p></div> 
+                                <!-- Breakfast -->
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <strong> Make sure to have your breakfast before arriving at the airport.</strong>
+                                </div>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Arrive early at the airport</p></div> 
+                                <!-- Arrive Early -->
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        <strong>Arrive Early at the Airport</strong><br>
+                                        Arrival must be at least <strong>4 hours</strong> before departure. Staff must arrive earlier than engineers to prepare and assist as needed.
+                                    </p>
+                                </div>
 
+                                <!-- Headcount -->
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        <strong>Conduct Headcount & Confirm Engineers</strong><br>
+                                        Ensure all engineers and staff are present and accounted for.
+                                    </p>
+                                </div>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Arrival must be at least 4 hours before departure. Make sure to arrive earlier than the engineers so you’re ready to assist them and with other staff as needed.</p></div> 
+                                <!-- Immigration Verification -->
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p><strong>Verify Immigration Requirements</strong></p>
+                                </div>
 
-
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Conduct headcount and luggage checks</p></div> 
-
-
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Verify immigration documents and tickets</p></div> 
-
-                                <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                        <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                            <li>E-travel QR Code</li>
+                                <ul class="pl-8 text-[15px] mt-1" style="list-style-type: circle;">
+                                    <li>PH E-Travel QR Code</li>
+                                    <li>Japan Visit Japan Web (Immigration)</li>
+                                    <li> Printed Travel Documents (to be brought and distributed by LAT Staff) This includes at least:
+                                        <ul class="pl-6 mt-1 text-[14px]" style="list-style-type: square;">
+                                            <li>Itinerary Receipt (Round-Trip Ticket)</li>
+                                            <li>Confirmation of Travel Tax Payment</li>
+                                            <li>Certificate of Employment</li>
+                                            <li>Travel Order</li>
+                                            <li>Letter of Guarantee</li>
+                                            <li>Invitation Letter</li>
+                                            <li>Itinerary in Japan</li>
+                                            <li>Hotel Booking</li>
+                                            <li>Details of Company / Organization</li>
+                                            <li>Other required supporting documents</li>
+                                            <p class="pl-8 text-[14px] mt-1 text-gray-700"> <strong>For Staff:</strong> Double-check all details to ensure accuracy. If there are any inconsistencies, report immediately to the LAT staff. </p>
                                         </ul>
+                                    </li>
                                 </ul>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Remind them on airport etiquette, time discipline</p></div> 
+                                <!-- First Aid -->
+                                <div class="flex items-start space-x-3 mt-4">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p><strong>First Aid Kits</strong><br>
+                                    First aid kits will be provided to staff joining the trip for emergency use.</p>
+                                </div>
 
-                                <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                        <li><i>“Be mindful of time. Stay with your group. Behave professionally in public areas.”</i></li>
-                                    </ul>
-                                </ul>
-                            
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Distribute the Group leader & Route Navigator role rotation plan and contact sheet.</p></div> 
-
-                                <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                        <li>For communication: Enable phone call via Messenger, ask all the Engineers to send FB messages individually to Zuitt staff and Japanese staff.</li>
-                                    </ul>
-                                </ul>
-
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Make sure all engineers read and review the handouts given in advance.</p></div> 
-                            
-                                
+                            </div>
                         </div>
+
                     `
                 },
                 {
@@ -226,37 +672,128 @@
                     iconBg: 'bg-green-100',
                     content: `
                         <div class="space-y-6">
-                            <div class="bg-gray-50 p-4 rounded-lg"><p><strong> <span class="text-green-600">When to use:</strong> <br> Use this SOP <strong>immediately upon landing in Japan</strong> until the group departs from the airport to the hotel.</p></div>
-                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">Upon landing</h5>
-                                <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <li>Post confirmation in group chat (arrival update)</li>
-                                    
-                                </ul>
-                            </div>
                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">Go through immigration</h5>
+                                <p>
+                                    <strong><span class="text-green-600">When to use:</span></strong><br>
+                                    Use this SOP <strong>immediately upon landing in Japan</strong> until the group departs from the airport to the hotel.
+                                </p>
+                            </div>
+
+                            <!-- Upon Landing -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">Upon Landing</h5>
                                 <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <li>Guide engineers to fill out the disembarkation card and customs card</li>
-                                        <ul class="space-y-2 text-[15px] list-disc pl-5">    
-                                            <li>Purpose of visit: Project-based learning</li>
-                                        </ul>
-                                    <li>Confirm all engineers have cleared immigration</li>
+                                    <li>Post confirmation in the group chat (arrival update and status).</li>
                                 </ul>
                             </div>
-                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">After Immigration</h5>
+
+                            <!-- Immigration -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">Go Through Immigration</h5>
                                 <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <li><strong>Handle any lost baggage protocols</strong></li>
-                                        <ul class="space-y-2 text-[15px] list-disc pl-5">    
-                                            <li>Assist the engineers: Give the contact number and address where the luggage can be delivered</li>
+                                    <li>
+                                        Guide engineers to fill out the disembarkation and customs cards, 
+                                        <strong>if they have not yet completed the process online</strong>.
+                                    </li>
+                                    <li>
+                                        Confirm and check that all engineers have finished immigration procedures 
+                                        (passport control and customs).
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- After Immigration & Baggage -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">After Immigration & Baggage</h5>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                    <li>
+                                        <strong>Gather engineers and check baggage/personal items.</strong><br>
+                                        Confirm that no baggage or items are missing.
+                                    </li>
+                                    <li>
+                                        <strong>Lost baggage protocol (if needed)</strong><br>
+                                        If there is lost baggage:
+                                        <ul class="pl-6 mt-1 text-[14px]" style="list-style-type: circle;">
+                                            <li>Assist the engineer in filing a lost baggage report.</li>
+                                            <li>Provide the contact number and address where the luggage can be delivered.</li>
+                                            <li>Inform <strong>Kato-san</strong> about the situation.</li>
                                         </ul>
-                                    <li>Assist with SIM card/roaming and train card set-up</li>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Transportation Cards & Tickets -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">Transportation Cards & Tickets</h5>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                    <li>
+                                        <strong>Distribute IC Cards</strong><br>
+                                        Distribute Suica/PASMO cards to engineers. Remind them that it is to be used 
+                                        <strong>only for transportation during the trip</strong> and not for personal expenses.
+                                    </li>
+                                    <li>
+                                        <strong>SIM / Roaming Set-Up</strong><br>
+                                        Assist engineers with SIM/eSIM/roaming setup.
+                                    </li>
+
+
+                                    <li>
+                                        <strong>JR Pass & Shinkansen Ticket Claiming</strong><br>
+                                        Designated staff are responsible for claiming the purchased JR Pass and reserved tickets.
+                                        <ul class="pl-6 mt-1 text-[14px]" style="list-style-type: circle;">
+                                            <li><strong>Step 1:</strong> Collect passports from engineers (these are needed for claiming).</li>
+                                            <li><strong>Step 2:</strong> Ensure the staff claiming has the reservation and purchase screenshots/details.</li>
+                                            <li>
+                                                <strong>Upon claiming:</strong>
+                                                <ul class="pl-6 mt-1" style="list-style-type: square;">
+                                                    <li>Organize tickets per destination and per group in separate envelopes.</li>
+                                                    <li>Double-check that tickets match the correct group and schedule.</li>
+                                                    <li>Always verify the validity dates of JR Passes and reservation tickets.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="mt-3 text-[13px] text-blue-700">
+                                            <p>Reference: (See example below)</p>
+                                            <ul class="pl-6 mt-1" style="list-style-type: circle;">
+                                                <li><a href="images/tickets-per-group.JPEG" target="_blank">View Tickets Per Group</a></li>
+                                                <li><a href="images/tickets-per-destination.PNG" target="_blank">View Tickets Per Destination</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        While JP-speaking staff is claiming the tickets, another staff must stay with the engineers 
+                                        to accompany them and coordinate ordering dinner while waiting.
+                                    </li>
+
+                                    <li>
+                                        <strong>Handling JR Passes</strong><br>
+                                        JR Passes should be held by the staff member expected to lead each group. Engineers should <strong>not</strong> keep JR Passes to reduce the risk of loss.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Travel to Hotel -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">Travel to Hotel</h5>
+                                <ul class="space-y-2 text-[15px] list-disc pl-5">
+                                    <li>
+                                        Choose volunteer engineers to act as <strong>navigation leaders and sub-leaders</strong> 
+                                        for the route from the airport to the hotel (per group).
+                                    </li>
+                                    <li>
+                                        Use the itinerary and navigation apps to guide the route and transfers.
+                                    </li>
+                                    <li>
+                                        During transfers, ensure that engineers and staff are complete at every checkpoint 
+                                        (before boarding trains/buses and upon arrival). Conduct quick headcounts and make sure no one is left behind.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     `
                 },
+
                 {
                     id: 'arrival-hotel',
                     title: 'Arrival at Hotel',
@@ -311,7 +848,7 @@
                                 <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
                                 <p>
                                     <strong>Shinkansen Guidance:</strong> 
-                                    Remind the engineers to fall in line at the ticket gate. One Zuitt staff member should lead the group for the first Shinkansen ride. Assist with navigating ticket gates and boarding platforms ang get all the tickets. Look at the <a href="#etiquette-cheatsheet" class="text-blue-600" >Etiquette Cheatsheet</a> for train etiquette guidelines.
+                                    Remind the engineers to fall in line at the ticket gate. One Zuitt staff member should lead the group for the first Shinkansen ride. Assist with navigating ticket gates and boarding platforms and get all the tickets. Look at the <a href="#etiquette-cheatsheet" class="text-blue-600" >Etiquette Cheatsheet</a> for train etiquette guidelines.
                                 </p>
                             </div>
 
@@ -339,7 +876,7 @@
                                     In case of delay, missed train, or lost ticket: → Stay calm, keep subgroup together → Contact staff via Google chat to update and seek advice/alternatives → Redirect to alternate route using backup timetable.
                                 </p>
                             </div>
-                                
+                            <span class="block mt-2"> <strong class="text-purple-600">Reminder:</strong> Any issues encountered must be coordinated in the Staff GC and also reported to <strong>Kato-san</strong> for awareness and guidance. </span>
                             
                         </div>
                     `
@@ -468,278 +1005,309 @@
                     iconBg: 'bg-indigo-100',
                     content: `
                         <div class="space-y-6">
-                            <div class="bg-gray-50 p-4 rounded-lg"><p><strong> <span class="text-indigo-600">When to use:</strong> <br> Use this SOP daily <strong>from morning</strong> wake-up <strong>until the group returns</strong> to the hotel after each company visit.</p></div>
-
-
                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">The night before </h5>
-                                
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Post daily reminders in chat: itinerary, call time
-                                    </p>
+                                <p><strong> <span class="text-indigo-600">When to use:</span></strong><br>
+                                Use this SOP daily <strong>from morning</strong> wake-up <strong>until the group returns</strong> to the hotel after each company visit.</p>
+                            </div>
 
+                            <!-- NIGHT BEFORE -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">The night before</h5>
+                                
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        Staff to check if the itinerary is updated, then post daily reminders in the group chat (itinerary highlights, call time, and key notes for the next day).
+                                    </p>
                                 </div>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       To assign and monitor the rotation plan:
-                                    </p>
-
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Assign and monitor the rotation plan for the next day.</p>
                                 </div>
+
                                 <br>
                                 <h5 class="font-bold mb-2" id="roles">Roles</h5>
                                 <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <li><strong>Group Leader:</strong> Overall point-of-contact for the entire group. Coordinates with staff, ensures all members are accounted for, and upholds discipline.</li>
-                                    <li><strong>Route Navigator:</strong> Responsible for leading the group along the correct travel route (e.g., train transfers, walking paths). Uses Google Maps and Navigation Guide.</li>
-                                    <li><strong>Route Assistant:</strong> Supports the Route Navigator by confirming stops, checking signage, or searching for alternative paths.</li>
-                                    <li><strong>Help with restaurant coordination:</strong> If assigned, look for a nearby restaurant during break periods and guide your group respectfully and efficiently.</li>
+                                    <li>
+                                        <strong>Group Leader:</strong> Overall point-of-contact for the entire group. Coordinates with staff, ensures all members are accounted for, and upholds discipline.
+                                        Also checks in the morning if all members are awake and ready for departure.
+                                    </li>
+                                    <li>
+                                        <strong>Route Navigator:</strong> Responsible for leading the group along the correct travel route (e.g., train transfers, walking paths). Uses Google Maps and Navigation Guide.
+                                    </li>
+                                    <li>
+                                        <strong>Route Assistant:</strong> Supports the Route Navigator by confirming stops, checking signage, or searching for alternative paths.
+                                        Also carries the <strong>first aid kit</strong> whenever the group leaves the hotel.
+                                    </li>
+                                    <li>
+                                        <strong>Help with restaurant coordination:</strong> If assigned, look for a nearby restaurant during break periods and guide your group respectfully and efficiently.
+                                    </li>
                                 </ul>
                             </div>
 
-                            
+                            <!-- MORNING ROUTINE -->
                             <div class="bg-gray-50 p-4 rounded-lg">
                                 <h5 class="font-bold mb-2">Morning routine</h5>
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Wake up early and eat your breakfast
-                                    </p>
 
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Wake up early and eat your breakfast.</p>
                                 </div>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
                                     <p>
-                                       If the hotel has no breakfast, buy a meal the night before or early morning from a nearby convenience store.
+                                        Group Leader: Send a good-morning / roll-call message in the group chat to confirm everyone is awake. 
+                                        All staff and engineers must respond. Leaders should know the room numbers of their members so they can follow up or knock if needed.
                                     </p>
-
                                 </div>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
                                     <p>
-                                       Arrive before call time in the lobby
+                                        If the hotel has no breakfast, assign <strong>two engineers</strong> to purchase breakfast from a nearby convenience store 
+                                        either the night before or early in the morning.
                                     </p>
-
                                 </div>
-                                
+
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Arrive before call time in the lobby.</p>
+                                </div>
                             </div>
 
-
-
+                            <!-- DURING TRAVEL -->
                             <div class="bg-gray-50 p-4 rounded-lg">
                                 <h5 class="font-bold mb-2">During travel</h5>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Lead 1st Shinkansen ride; validate engineers’ understanding
-                                    </p>
-
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Lead the first Shinkansen ride and validate the engineers’ understanding of the process.</p>
                                 </div>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Load Passmo ahead of time. Always check the balance of Passmo.
-                                    </p>
-
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Load PASMO ahead of time and always check the balance.</p>
                                 </div>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Always update with the other groups
-                                    </p>
-
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Always update the other group(s) about progress and arrival.</p>
                                 </div>
 
-                                <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    
-                                        <ul class="space-y-2 text-[15px] list-circle pl-5">
-                                            <li>If your group is the first to go to the destination, update the other group</li>    
-                                            <li>You can assign and let the engineers update the other group</li>  
-                                        </ul>
-                                   
+                                <ul class="space-y-2 text-[15px] pl-8 mt-1" style="list-style-type: circle;">
+                                    <li>If your group is the first to reach the destination, send an update.</li>    
+                                    <li>You may assign an engineer to update the other group on behalf of the staff.</li>  
                                 </ul>
 
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Backup for navigation on what right no. of bus/platform/train to take
-                                    </p>
-
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Be the backup for navigation (confirm bus numbers, platforms, and trains to take).</p>
                                 </div>
                             </div>
 
+                            <!-- DURING COMPANY VISITS -->
                             <div class="bg-gray-50 p-4 rounded-lg">
                                 <h5 class="font-bold mb-2">During Company Visits</h5>
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Oversee the Engineers during training and company visits
-                                    </p>
 
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Oversee the engineers during training and company visits.</p>
                                 </div>
 
-
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Observe the engineers' performance
-                                    </p>
-
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Observe the engineers' performance and behavior.</p>
                                 </div>
 
-
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
                                     <p>
-                                       Encourage them to use the Translator app, but always prepare your backup for the company's Japanese staff to use.
+                                        Encourage them to use the translator app, but always prepare a backup method for the company’s Japanese staff (e.g., printed phrases, support from JP-speaking staff).
                                     </p>
-
                                 </div>
 
-                                
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Staff should observe and provide assistance as needed, based on the situation.</p>
+                                </div>
                             </div>
 
+                            <!-- AFTER VISITS / FEEDBACK & COACHING -->
                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">Others:</h5>
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Keep the Emergency Health & Safety SOP checklist available at all times
-                                    </p>
-
-                                </div>
-
-                        
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       Handles the company's miscellaneous pocket money. Always takes photos of all the receipts for documentation
-                                    </p>
-
-                                </div>
-
-
-                                <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
-                                
-                                    <p>
-                                       To search for nearby restaurants/convenience store as backup
-                                    </p>
-
-                                </div>
-
-                            </div>
-                            
-
-                            <div class="bg-yellow-50 p-4 rounded-lg">
-                                <h2 class="font-bold text-center" id="etiquette-cheatsheet">Etiquette Cheatsheet for Engineers</h2>
-                            </div>
-
-
-                                    <h4 class="text-[15px] font-bold mb-3">Time expectations and group discipline:</h4>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 border border-green-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-green-800 mb-2">Professional behavior</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-green-700">
-                                        <li>Be at the meeting point 5 minutes before the call time</li>
-                                        <li>Follow the timeline strictly</li>
-                                        <li>Listen to staff and group leaders at all times</li>
-                                        <li>Walk together as a group unless told otherwise</li>
-                                        <li>Help keep the group moving smoothly and on time</li>
-                                    </ul>
-                                </div>
-                                <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-red-800 mb-2">Avoid</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-red-700">
-                                        <li>Don’t take personal side trips unless it’s free time</li>
-                                        <li>Avoid being late — it helps keep the group on schedule.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            
-                                    <h4 class="text-[15px] font-bold mb-3">Train Etiquette:</h4>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 border border-green-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-green-800 mb-2">Professional behavior</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-green-700">
-                                        <li>Speak quietly</li>
-                                        <li>Turn your phone to silent mode</li>
-                                        <li>Use designated luggage areas</li>
-                                    </ul>
-                                </div>
-                                <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-red-800 mb-2">Avoid</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-red-700">
-                                        <li>Avoid occupying multiple seats</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                                    <h4 class="text-[15px] font-bold mb-3">Hotel Etiquette:</h4>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 border border-green-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-green-800 mb-2">Professional behavior</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-green-700">
-                                        <li>Be quiet in hallways</li>
-                                        <li>Keep your room quiet and clean</li>
-                                        <li>Respect lights-out time </li>
-                                        <li>If you need to go to a convenience store at night, report to the staff first</li>
-                                        <li>Report any issues to staff right away</li>
-
-                                    </ul>
-                                </div>
-                                <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-red-800 mb-2">Avoid</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-red-700">
-                                        <li>Avoid switching rooms or beds</li>
-                                        <li>Don’t slam doors or speak loudly near other guests.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                                    <h4 class="text-[15px] font-bold mb-3">Inside the Company Visit:</h4>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div class="bg-green-50 border border-green-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-green-800 mb-2">Professional behavior</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-green-700">
-                                        <li>Sit properly</li>
-                                        <li>Pay full attention to speakers or presentations</li>
-                                        <li>Speak clearly and respectfully if called upon</li>
-                                        <li>Use polite gestures and make eye contact when appropriate</li>
-                                        <li>Be polite and say “Arigatougozaimasu” or bow politely when leaving</li>
-                                    </ul>
-                                </div>
-                                <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
-                                    <h5 class="font-bold text-red-800 mb-2">Avoid</h5>
-                                    <ul class="space-y-2 text-[15px] list-disc pl-5 text-red-700">
-                                        <li>Using your phone or scrolling on social media</li>
-                                        <li>Side chatter with fellow engineers</li>
-                                        <li>Wearing distracting or inappropriate accessories (e.g., earrings for males)</li>
-                                        <li>Slouching or showing disinterest during sessions</li>
-                                        <li>Drinking too much alcohol the night before the company visit</li>
-                                    </ul>
-                                </div>
-                            </div>
-                             <div class="bg-gray-50 p-4 rounded-lg">
-                                <h5 class="font-bold mb-2">Smoking Policy</h5>
+                                <h5 class="font-bold mb-2">After Company Visits & During Free Time</h5>
                                 <ul class="space-y-2 text-[15px] list-disc pl-5">
-                                    <li>You may smoke only during designated break times and in approved smoking areas.</li>
-                                    <li>Never smoke near entrances, along walkways, or in non-smoking areas.</li>
-                                    <li>Do not take unscheduled smoke breaks that could cause delays or disrupt the group’s timeline.</li>
-                                    <li>Always inform your staff-in-charge before stepping away, even during breaks.</li>
-                                    <li>Smoking/Vaping in an aircraft is prohibited</li>
+                                    <li>
+                                        Upon arriving back at the hotel, hold a short huddle with engineers to give feedback on their performance:
+                                        what they did well and what they can improve. Encourage them to take the lead in conversations with company staff.
+                                    </li>
+                                    <li>
+                                        During free time or when available:
+                                        <ul class="pl-6 mt-1" style="list-style-type: circle;">
+                                            <li>
+                                                <strong>JP-speaking staff:</strong> Help engineers practice their jikoshoukai (self-introduction), making sure it is 
+                                                90 seconds or less. Give advice on delivery and what to improve.
+                                            </li>
+                                            <li>
+                                                <strong>Non-JP staff:</strong> Provide daily feedback, review engineers’ resumes, and coach them on which points to highlight
+                                                in their introductions so companies can clearly understand their strengths. Support overall engineer preparation, operations reliability,
+                                                and morale.
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
+
+                            <!-- OTHERS -->
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h5 class="font-bold mb-2">Others</h5>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>Keep the Emergency Health & Safety SOP checklist available at all times.</p>
+                                </div>
+
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        Handle the company’s miscellaneous pocket money. Use a duplicate copy of the Expenses Sheet:
+                                        <a href="https://docs.google.com/spreadsheets/d/1zXzEe58T1NNjidn0NPT3vH6tSx2KXS8PsEftr-NnPB8/edit?gid=0#gid=0" 
+                                           class="text-blue-600" target="_blank">Expenses Sheet</a>.
+                                        Record the mode of payment (cash / credit card / UPSIDER), where it was used (e.g., meal for how many pax, taxi, etc.),
+                                        and always take photos of receipts.
+                                    </p>
+                                </div>
+
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        During all activities (Kansai training, company visits, cultural immersion/sightseeing),
+                                        document the experience by taking photos or videos. For company or factory visits, always ask permission first
+                                        before taking any photos or videos, as some areas may not allow recording.
+                                    </p>
+                                </div>
+
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        Ensure engineers are interviewed at different points of the trip (e.g., first 1–2 days after arrival, 
+                                        after Kansai training, during/after company visits). Use the interview guide provided by Marketing:
+                                        <a href="https://docs.google.com/document/d/1a_jppU-D9D3K0SBbg56TAdpJwZbl9_g_u7j6UbILxN4/edit?tab=t.0" 
+                                           class="text-blue-600" target="_blank">Interview Questions</a>.
+                                    </p>
+                                </div>
+
+                                <div class="flex items-start space-x-3 mt-2">
+                                    <div class="flex-shrink-0 pt-1">
+                                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
+                                    </div>
+                                    <p>
+                                        For meals, make sure each meal is around <strong>1,000 yen or below</strong>. Double-check the price 
+                                        before purchasing and be mindful of the budget.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- (Etiquette & Smoking Policy sections stay as-is below your current code) -->
                         </div>
                     `
+
                 },
+
                 {
                     id: 'hotel-checkout',
                     title: 'Hotel Check-Out <br> (Transition Days)',
@@ -829,19 +1397,88 @@
                     iconBg: 'bg-red-100',
                     content: `
                         <div class="space-y-3">
-                            <div class="bg-gray-50 p-4 rounded-lg"><p><strong> <span class="text-red-600">When to use:</strong> <br> Use this SOP <strong>before the flight returning to the Philippines.</strong></p></div>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-red-600">When to use:</span></strong><br>
+                                    Use this SOP <strong>before the flight returning to the Philippines.</strong>
+                                </p>
+                            </div>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Conduct final briefing: conduct a reminder, re-entry guidance, and check-in instructions.</p></div>
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>Conduct a final briefing: reminders, re-entry guidance, and check-in instructions.</p>
+                            </div>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Confirm all return logistics: airport transport, tickets</p></div>
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>Confirm all return logistics: airport transport, tickets, and call time.</p>
+                            </div>
 
-                            <div class="flex items-start space-x-3"><div class="flex-shrink-0 pt-1"><svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><p>Remind the engineers to create an e-travel QR code (Arrival in PH)</p></div>
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>Remind the engineers to create their e-Travel QR code for arrival in the Philippines.</p>
+                            </div>
 
+                            <!-- BELONGINGS & BAGGAGE -->
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p><strong>Final Personal & Baggage Check</strong></p>
+                            </div>
 
+                            <ul class="space-y-2 text-[15px] list-disc pl-8">
+                                <li>Ensure all personal belongings are complete.</li>
+                                <li>Ask engineers and staff to double-check rooms, closets, drawers, and bathrooms before checkout.</li>
+                                <li>For those who bought many pasalubongs, check luggage weight to avoid excess baggage fees.</li>
+                            </ul>
 
+                            <!-- IC CARD CHECK -->
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p><strong>IC Card Check & Loading</strong></p>
+                            </div>
+
+                            <ul class="space-y-2 text-[15px] list-disc pl-8">
+                                <li>Collect IC cards (e.g., PASMO) from engineers and staff.</li>
+                                <li>Check remaining balance.</li>
+                                <li>Load remaining cash if needed to cover transportation to the airport.</li>
+                                <li>
+                                    Recommended remaining balances:
+                                    <ul class="pl-6 mt-1" style="list-style-type: circle;">
+                                        <li>Engineers: ¥4,000–¥5,000</li>
+                                        <li>Staff: ¥5,000–¥20,000</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     `
                 },
+
+
                 {
                     id: 'pre-embarkation-jp',
                     title: 'Pre-Embarkation <br> (JP Airport)',
@@ -880,6 +1517,73 @@
                         </div>
                     `
                 },
+                {
+                    id: 'post-embarkation-ph',
+                    title: 'Post-Embarkation <br> (Arrival in PH)',
+                    icon: `<span class="material-symbols-outlined text-green-600 text-[21px]">home</span>`,
+                    iconBg: 'bg-green-100',
+                    content: `
+                        <div class="space-y-3">
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p>
+                                    <strong><span class="text-green-600">When to use:</span></strong><br>
+                                    Use this SOP immediately after landing in the Philippines and 
+                                    <strong>until all engineers are cleared and officially dismissed.</strong>
+                                </p>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>Confirm immigration clearance of all engineers.</p>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>
+                                    Collect all remaining issued items and bring them back to NAIA and then to the Zuitt QC Office,
+                                    including: name tags, IC cards (Suica/PASMO), remaining cash, receipts, and memos, etc.
+                                </p>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>Send a post-trip thank-you message and the feedback form.</p>
+                            </div>
+
+                            <div class="flex items-start space-x-3">
+                                <div class="flex-shrink-0 pt-1">
+                                    <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p>
+                                    Post-trip: If students/engineers are under AOTS Subsidy, accomplish the required checklist:
+                                    <a href="https://docs.google.com/spreadsheets/d/1YQRN0RU7znnpeVv258TXtu-g4k-sqaOCV-CdncRx_qk/edit?gid=0#gid=0"
+                                       class="text-blue-600" target="_blank">
+                                       AOTS Subsidized One Day Job Experience Task Checklist
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    `
+                },
+
             ];
 
             const accordionContainer = document.getElementById('accordion-container');
